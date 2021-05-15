@@ -1,0 +1,13 @@
+[2020-03-05 11:49:37 +0800] [2414] [INFO] Starting gunicorn 20.0.4
+[2020-03-05 11:49:37 +0800] [2414] [INFO] Listening at: http://0.0.0.0:5001 (2414)
+[2020-03-05 11:49:37 +0800] [2414] [INFO] Using worker: sync
+[2020-03-05 11:49:37 +0800] [2417] [INFO] Booting worker with pid: 2417
+2020-03-05 11:49:38.713598: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-03-05 11:49:38.713667: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-03-05 11:49:38.713678: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[2020-03-05 13:59:59 +0800] [2414] [INFO] Handling signal: hup
+[2020-03-05 13:59:59 +0800] [2414] [INFO] Hang up: Master
+[2020-03-05 13:59:59 +0800] [2833] [INFO] Booting worker with pid: 2833
+2020-03-05 14:00:00.729583: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-03-05 14:00:00.729657: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-03-05 14:00:00.729668: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
