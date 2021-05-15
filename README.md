@@ -147,6 +147,25 @@ setting_speed.py 利用清华源加速下载
 作者的项目都是win10系统下用pycharm进行开发
 模型训练完毕才上传至服务器进行部署
 
+## 遇到的问题记录
+### 1.github 箭头文件夹
+最近在写一个架构系统的demo，因为里面有几个子系统是clone别人的项目，导致github这个文件夹上显示白色箭头并且不能打开。
 
+原来是因为这个文件夹里面有.git隐藏文件，github就将他视为一个子系统模块了。
+
+解决办法就是：
+
+1、删除文件夹里面的.git文件夹
+
+2、执行git rm --cached [文件夹名]
+
+3、执行git add [文件夹名]
+
+4、执行git commit -m "msg"
+
+5、执行git push origin [branch_name] 
+————————————————
+版权声明：本文为CSDN博主「微个日光日」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/xiebaochun/article/details/114143346
 
 
