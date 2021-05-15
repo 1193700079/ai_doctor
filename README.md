@@ -29,7 +29,7 @@ off_line只是帮助了解数据的清洗
 
 只需搭建好neo4j图数据库和on_line下属的文件以及rnn_moderl下的reviewed文件
 ***
-##安装neo4j
+## 安装neo4j
 
 neo4j图数据库的安装流程:
 
@@ -86,7 +86,7 @@ python write_neo4j.py
 python test_neo4j.py
 ```
 
-##on_line部分
+## on_line部分
 
 redis安装
 ```shell script
