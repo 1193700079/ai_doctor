@@ -140,7 +140,7 @@ python ~/ai_doctor/on_line/bert_server/run_gunicorn.py -w 1 -b 0.0.0.0:5001 app:
 ![img](./img/5.png)
 
 
-##拓展
+## 拓展
 setting_speed.py 利用清华源加速下载
 
 
@@ -149,9 +149,8 @@ setting_speed.py 利用清华源加速下载
 
 ## 遇到的问题记录
 ### 1.github 箭头文件夹
-最近在写一个架构系统的demo，因为里面有几个子系统是clone别人的项目，导致github这个文件夹上显示白色箭头并且不能打开。
 
-原来是因为这个文件夹里面有.git隐藏文件，github就将他视为一个子系统模块了。
+是因为这个文件夹里面有.git隐藏文件，github就将他视为一个子系统模块了。
 
 解决办法就是：
 
@@ -164,8 +163,3 @@ setting_speed.py 利用清华源加速下载
 4、执行git commit -m "msg"
 
 5、执行git push origin [branch_name] 
-————————————————
-版权声明：本文为CSDN博主「微个日光日」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xiebaochun/article/details/114143346
-
-
